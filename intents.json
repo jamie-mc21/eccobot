@@ -1,0 +1,17 @@
+{"intents": [
+    {"tag": "greetings",
+    "patterns": ["hello", "hey", "hi", "good day", "greetings", "whats up"],
+    "responses": ["Hello!", "Hey!", "What can I help you with?"]},
+    {"tag": "goodbye",
+    "patterns": ["bye", "goodbye", "See you later"],
+    "responses": ["Goodbye!", "Bye!", "Have a good day!"]},
+    {"tag": "buildings",
+    "patterns": ["Building addresss", "Building number"],
+    "responses": ["Hello!", "Hey!"]},
+    {"tag": "data",
+    "patterns": ["Temp", "humidity", "CO2"],
+    "responses": ["Hello!", "Hey!"]},
+    {"tag": "name",
+    "patterns": ["whats yur name", "what should i call you", "who are yu", "good day", "greetings", "whats up"],
+    "responses": ["EccoBot!", "Im EccoBot from CleverNet!", "My name is EccoBot!"]}
+]}
